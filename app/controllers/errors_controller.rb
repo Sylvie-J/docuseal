@@ -5,14 +5,14 @@ class ErrorsController < ActionController::Base
     'This feature is available in Pro Edition: https://www.docuseal.co/pricing'
 
   ENTERPRISE_PATHS = [
-    '/templates/html',
-    '/api/templates/html',
-    '/templates/pdf',
-    '/api/templates/pdf',
-    '/templates/doc',
-    '/api/templates/doc',
-    '/templates/docx',
-    '/api/templates/docx'
+    # '/templates/html',
+    # '/api/templates/html',
+    # '/templates/pdf',
+    # '/api/templates/pdf',
+    # '/templates/doc',
+    # '/api/templates/doc',
+    # '/templates/docx',
+    # '/api/templates/docx'
   ].freeze
 
   SAFE_ERROR_MESSAGE_CLASSES = [
